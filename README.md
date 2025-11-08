@@ -1,12 +1,11 @@
-**University of Pennsylvania, CIS 5650: GPU Programming and Architecture,
-Project 1 - Flocking**
+# CUDA Boids Flocking
+Parallel boids flocking simulation in CUDA.
 
-* Lu Men
-  * [LinkedIn](https://www.linkedin.com/in/lu-m-673425323/)
-* Tested on PC: Windows 11 Home, AMD Ryzen 7 5800HS @ 3.20GHz 16GB, NVIDIA GeForce RTX 3060 Laptop GPU 6GB (Compute Capability 8.6)
+* Lu M.
+  * [LinkedIn](https://www.linkedin.com/in/lu-m-673425323/), [Personal Site](https://lu-m-dev.github.io)
+* Tested on: Windows 11 Home, AMD Ryzen 7 5800HS @ 3.20GHz 16GB, NVIDIA GeForce RTX 3060 Laptop GPU 6GB (Compute Capability 8.6)
 
-
-### Demo Simulations
+## Demo Simulations
 
 <table style="width:100%; border-collapse:collapse;">
   <tr>
@@ -28,7 +27,6 @@ Project 1 - Flocking**
     </td>
   </tr>
 </table>
-
 
 ## **Performance Analysis**
 
@@ -65,3 +63,26 @@ Changing the **cell width** and the number of neighboring cells checked (8 vs. 2
 * **Cell Width:** The optimal cell width is twice the maximum interaction radius of a boid. If the cell width is too small, a boid's neighbors might be in adjacent cells, requiring more cell checks. If it's too large, it may contain many boids that are not neighbors, leading to unnecessary distance calculations. An optimal cell width minimizes the number of cells to check and the number of unnecessary distance checks.
 
 * **Checking 27 vs. 8 Neighboring Cells:** Checking 27 cells (including the current cell and its immediate neighbors in 3D space) is typically slightly slower than checking 8 cells (in 2D space) because it involves more data access and comparisons. A well-defined 2D uniform grid ensures that all interacting neighbors for a boid are contained within its own cell and the 8 surrounding cells. Therefore, checking 27 cells is redundant and inefficient for a 2D simulation, as the additional 18 cells would not contain any relevant neighbors.
+
+## Build Instructions
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/lu-m-dev/CUDA-boids-flocking.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd CUDA-boids-flocking
+   ```
+3. Build with CMake:
+   ```sh
+   cmake -B build -S . -G "Visual Studio 17 2022"
+   ```
+4. Open the solution in Visual Studio:
+   ```sh
+   cd build
+   start ./cis5650_boids.sln
+   ```
+
+## Credit
+- [University of Pennsylvania CIS 5650](https://github.com/CIS5650-Fall-2025/Project1-CUDA-Flocking)
