@@ -12,19 +12,19 @@ Project 1 - Flocking**
   <tr>
     <td style="text-align:center; padding:12px; vertical-align:top;">
       <strong>1,000 Boids</strong><br>
-      <img src="./images/boids_1000.gif" alt="1000 boids" style="width:80%; height:auto; max-width:640px;">
+  <img src="./images/boids_1000.gif" alt="1000 boids" style="width:480px; max-width:100%; height:auto;">
     </td>
   </tr>
   <tr>
     <td style="text-align:center; padding:12px; vertical-align:top;">
       <strong>10,000 Boids</strong><br>
-      <img src="./images/boids_10000.gif" alt="10000 boids" style="width:80%; height:auto; max-width:640px;">
+  <img src="./images/boids_10000.gif" alt="10000 boids" style="width:480px; max-width:100%; height:auto;">
     </td>
   </tr>
   <tr>
     <td style="text-align:center; padding:12px; vertical-align:top;">
       <strong>50,000 Boids</strong><br>
-      <img src="./images/boids_50000.gif" alt="50000 boids" style="width:80%; height:auto; max-width:640px;">
+  <img src="./images/boids_50000.gif" alt="50000 boids" style="width:480px; max-width:100%; height:auto;">
     </td>
   </tr>
 </table>
