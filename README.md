@@ -5,17 +5,29 @@ Project 1 - Flocking**
   * [LinkedIn](https://www.linkedin.com/in/lu-m-673425323/)
 * Tested on PC: Windows 11 Home, AMD Ryzen 7 5800HS @ 3.20GHz 16GB, NVIDIA GeForce RTX 3060 Laptop GPU 6GB (Compute Capability 8.6)
 
-### 1000 Boids Simulation
 
-<img src="./images/boids_1000.gif" alt="Screenshot" style="width:80%; height:auto;">
+### Demo Simulations
 
-### 10000 Boids Simulation
-
-<img src="./images/boids_10000.gif" alt="Screenshot" style="width:80%; height:auto;">
-
-### 50000 Boids Simulation
-
-<img src="./images/boids_50000.gif" alt="Screenshot" style="width:80%; height:auto;">
+<table style="width:100%; border-collapse:collapse;">
+  <tr>
+    <td style="text-align:center; padding:12px; vertical-align:top;">
+      <strong>1,000 Boids</strong><br>
+      <img src="./images/boids_1000.gif" alt="1000 boids" style="width:80%; height:auto; max-width:640px;">
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align:center; padding:12px; vertical-align:top;">
+      <strong>10,000 Boids</strong><br>
+      <img src="./images/boids_10000.gif" alt="10000 boids" style="width:80%; height:auto; max-width:640px;">
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align:center; padding:12px; vertical-align:top;">
+      <strong>50,000 Boids</strong><br>
+      <img src="./images/boids_50000.gif" alt="50000 boids" style="width:80%; height:auto; max-width:640px;">
+    </td>
+  </tr>
+</table>
 
 
 ## **Performance Analysis**
