@@ -1,9 +1,14 @@
 # CUDA Boids Flocking
 Parallel boids flocking simulation in CUDA.
 
-* Lu M.
-  * [LinkedIn](https://www.linkedin.com/in/lu-m-673425323/), [Personal Site](https://lu-m-dev.github.io)
-* Tested on: Windows 11 Home, AMD Ryzen 7 5800HS @ 3.20GHz 16GB, NVIDIA GeForce RTX 3060 Laptop GPU 6GB (Compute Capability 8.6)
+**Author:** Lu M.
+- [LinkedIn](https://www.linkedin.com/in/lu-m-673425323/)
+- [Personal Site](https://lu-m-dev.github.io/)
+
+**Tested System:**
+ - Windows 11 Home
+ - AMD Ryzen 7 5800HS @ 3.20GHz, 16GB RAM
+ - NVIDIA GeForce RTX 3060 Laptop GPU 6GB (Compute Capability 8.6)
 
 ## Demo Simulations
 
